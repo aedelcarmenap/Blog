@@ -1,8 +1,8 @@
 {
-  "name": "node",
+  "name": "21523-a-adela-agudo",
   "version": "1.0.0",
-  "description": "blog ",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js" 
