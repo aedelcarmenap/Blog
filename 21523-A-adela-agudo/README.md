@@ -8,4 +8,8 @@
 ## El foro permite que esta persona pueda escribir y presentar sus publicaciones de manera atractiva. 
 ## Contiene un formulario de creación de posts que permite ingresar el título y contenido del post, ingresar el enlance (URL) de una imagen de internet relevante y asignar la fecha de creación.
 
+
+# Servidor en http://localhost:5000
+
+
 #### Creado por Adela Agudo Poncini
