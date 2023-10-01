@@ -19,13 +19,13 @@
 
 # PASOS
 
-<<<<<< Configurar el entorno >>>>>>
+<<< Configurar el entorno >>>
 
     -Instalar Node.js y NPM si aún no lo han hecho.
     -Crear un nuevo directorio y configurar un archivo package.json utilizando el comando "npm init".
 
 
-<<<<<< Instalar las dependencias >>>>>>
+<<< Instalar las dependencias >>>
 
      . Express (Framework web de Node.js.)
 
@@ -48,18 +48,18 @@
      . Configurar la conexión a la base de datos utilizando Sequelize.
 
 
-<<<<<< Configurar variables de entorno >>>>>>
+<<< Configurar variables de entorno >>>
 
 -Crear y configurar un archivo “.env” para implementar variables de entorno.
 
 
-<<<<<< Crear rutas y controladores >>>>>>
+<<< Crear rutas y controladores >>>
 
 -Definir las rutas para las diferentes operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en el archivo principal de rutas.
 -Crear controladores para manejar la lógica de cada ruta, que incluya la manipulación de los posts en la base de datos utilizando Sequelize.
 
 
-<<<<<< Crear las vistas EJS >>>>>>
+<<< Crear las vistas EJS >>>
 
 - Bootstrap para estructurar el diseño general de la página.
 
@@ -80,7 +80,7 @@
    .Fecha de creación del post.
 
 
-<<<<<< Implementar el formulario y el CRUD >>>>>>
+<<< Implementar el formulario y el CRUD >>>
 
 - Crear el formulario HTML en la vista EJS para agregar nuevos posts.
 
@@ -91,7 +91,7 @@
  
   ## si clonas el repositorio:
 
-         <<<<<<<   GIT    >>>>>>>
+         <<<   GIT    >>>
 
         .Elimina el archivo ".git" de la carpeta donde clonaste el repositorio.
         
@@ -100,19 +100,19 @@
         .Se sigue con los comandos correspondientes a GIT
 
 
-        <<<<<<<< NPM >>>>>>>>
+        <<< NPM >>>
         
         .En la terminal ingresar el comando "npm i" donde automaticamente se instalaran las dependencias correspondientes.
 
 
-        <<<<<<<< DATA BASE >>>>>>>>
+        <<< DATA BASE >>>
 
         .Conectar XAMPP
         .Abrir PHPMyadmin en el navegador
         .Crear el archivo correspondiente con sus celdas (en este caso son 5: Id, titulo, descripcion, fecha, url_imagen)
         .Desde tu editor de codigo ir a la carpeta "database.js" y cambiar el nombre del archivo por el que creaste
 
-        <<<<<< FINAL>>>>>>
+        <<< FINAL >>>
         
         -En la terminal de tu editor de codigo poner "npm run dev" lo cual si todo esta OK te devolvera el host del servidor.
         -Copiar el servidor y abrir en navegador.
