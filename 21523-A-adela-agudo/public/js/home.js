@@ -16,7 +16,7 @@ const mostrarPublicaciones = (publicaciones, elementoHtml) => {
             <div class="d-flex flex-column justify-content-between">
                 <h5>${publicacion.titulo}</h5>
                 <p>${publicacion.descripcion}</p>
-                <p>${publicacion.fecha}</p>
+                <p>${new Date(publicacion.fecha).toLocaleDateString()}</p>
                 <p>${publicacion.firma_autor}</p>
             </div>
             </section>
